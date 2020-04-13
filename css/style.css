@@ -7,7 +7,6 @@
   background-color: #004134;
   padding: 10px;
   left: 0;
-  font-size: x-large;
 }
 .normal-btn-main-container {
   display: flex;
@@ -15,17 +14,21 @@
   color: #ffffff;
   justify-content: center;
 }
-.normal-btn-main-container > p {
+
+.normal-btn-main-container > button {
   margin: 3px;
   text-align: center;
   max-width: 94px;
   width: 6%;
+  font-size: 1.05rem;
+  font: 400 11px system-ui;
   height: 45px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   position: relative;
-  padding-top: 10px;
   cursor: pointer;
+  outline: none;
+  color: #ffffff;
 }
 .space-btn {
   max-width: 500px !important;
